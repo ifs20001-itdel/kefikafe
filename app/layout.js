@@ -11,13 +11,10 @@ export default function RootLayout({ children }) {
  return (
     <html lang="en">
       <head>
-      <style>
-          @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-      </style>
         <title>Kefi Cafe</title>
         <script src="https://cdn.tailwindcss.com"></script>
       </head>
-      <body style={{fontFamily:"'Rubik', sans-serif"}}>
+      <body>
         <nav class="text-gray-600 body-font">
           <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
